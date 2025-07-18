@@ -1,0 +1,123 @@
+{
+  "type": "container",
+  "style": {
+    "backgroundColor": "#2E7D32",
+    "padding": 15
+  },
+  "elements": [
+    {
+      "type": "container",
+      "style": {
+        "paddingVertical": 18,
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+        "alignItems": "center"
+      },
+      "elements": [
+        {
+          "type": "container",
+          "style": {
+            "flexDirection": "row",
+            "alignItems": "center"
+          },
+          "elements": [
+            {
+              "type": "icon",
+              "name": "arrow-left",
+              "size": 20,
+              "color": "#fff"
+            },
+            {
+              "type": "text",
+              "value": "Account",
+              "style": {
+                "fontSize": 15,
+                "color": "#fff",
+                "marginLeft": 10
+              }
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "style": {
+            "flexDirection": "row",
+            "alignItems": "center"
+          },
+          "elements": [
+            {
+              "type": "container",
+              "style": {
+                "marginLeft": 10
+              },
+              "elements": [
+                {
+                  "type": "icon",
+                  "name": "cart-outline",
+                  "size": 22,
+                  "color": "#fff"
+                },
+                {
+                  "type": "container",
+                  "style": {
+                    "backgroundColor": "orange",
+                    "paddingHorizontal": 4,
+                    "borderRadius": 50,
+                    "position": "absolute",
+                    "bottom": 15,
+                    "left": 14
+                  },
+                  "elements": [
+                    {
+                      "type": "text",
+                      "value": "3",
+                      "style": {
+                        "fontSize": 10,
+                        "textAlign": "center"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "container",
+              "style": {
+                "marginLeft": 10
+              },
+              "elements": [
+                {
+                  "type": "icon",
+                  "name": "bell-outline",
+                  "size": 22,
+                  "color": "#fff"
+                },
+                {
+                  "type": "container",
+                  "style": {
+                    "backgroundColor": "orange",
+                    "paddingHorizontal": 4,
+                    "borderRadius": 50,
+                    "position": "absolute",
+                    "bottom": 15,
+                    "left": 14
+                  },
+                  "elements": [
+                    {
+                      "type": "text",
+                      "value": "5",
+                      "style": {
+                        "fontSize": 10,
+                        "textAlign": "center"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
